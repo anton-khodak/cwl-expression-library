@@ -1,0 +1,41 @@
+fileWithoutMetadata:
+ class: File
+ path: hello.txt
+
+fastqSeqs:
+ - class: File
+   path: hello.txt
+   metadata:
+     sample_id: Dog10
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTAA
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: K
+     treatment: 4
+ - class: File
+   path: hello.txt
+   metadata:
+     sample_id: Dog15
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTAC
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: K
+     treatment: 1
+ - class: File
+   path: hello.txt
+   metadata:
+     sample_id: Dog16
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTAG
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: K
+     treatment: 4
+ - class: File
+   path: hello.txt
+   metadata:
+     sample_id: Dog17
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTAT
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: K
+     treatment: 0

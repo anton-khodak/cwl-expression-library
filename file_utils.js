@@ -1,9 +1,30 @@
 var updateMetadata = function (file, key, value) {
-    file[key] = value;
+    file['metadata'][key] = value;
     return file;
 };
 
 var inheritMetadata = function (file, files) {
+    var commonMetadata = {};
+    for (var i=0; i < files.length; i++){
+        var example = files[i]['metadata'];
+        for (var key in example){
+                if (i==0)
+                    commonMetadata[key] = example[key];
+                else{
+                    if (!(commonMetadata[key] == example[key])){
+                        delete commonMetadata[key]
+                    }
+                }
+            }
+        }
+    if (!('metadata' in file))
+        file['metadata'] = commonMetadata;
+    else{
+        for (var key in commonMetadata){
+            file['metadata'][key] = commonMetadata[key];
+        }
+    }
+    return file;
 };
 
 var toArray = function (file) {
@@ -14,7 +35,7 @@ var groupBy = function (files, key) {
     var groupedFiles = [];
     var tempDict = {};
     for (var i=0; i < files.length; i++){
-        var value = files[i][key];
+        var value = files[i]['metadata'][key];
         if (value in tempDict)
             tempDict[value].push(files[i]);
         else tempDict[value] = [files[i]];
@@ -28,11 +49,11 @@ var groupBy = function (files, key) {
 
 var orderBy = function (files, key, order) {
     var compareFunction = function (a, b) {
-        if (a[key].constructor === Number) {
-            return a[key] - b[key];
+        if (a['metadata'][key].constructor === Number) {
+            return a['metadata'][key] - b['metadata'][key];
         } else {
-            var nameA = a[key].toUpperCase();
-            var nameB = b[key].toUpperCase();
+            var nameA = a['metadata'][key].toUpperCase();
+            var nameB = b['metadata'][key].toUpperCase();
                 if (nameA < nameB) {
                     return -1;
                 }

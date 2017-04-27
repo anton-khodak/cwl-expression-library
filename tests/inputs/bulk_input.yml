@@ -1,121 +1,136 @@
 fastqSeqs:
  - class: File
    path: hello.txt
-   sample_id: Dog10
-   barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTAA
-   linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
-   reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
-   dog_breed: K
-   treatment: 4
+   metadata:
+     sample_id: Dog10
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTAA
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: K
+     treatment: 4
  - class: File
    path: hello.txt
-   sample_id: Dog15
-   barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTAC
-   linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
-   reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
-   dog_breed: B
-   treatment: 1
+   metadata:
+     sample_id: Dog15
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTAC
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: B
+     treatment: 1
  - class: File
    path: hello.txt
-   sample_id: Dog16
-   barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTAG
-   linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
-   reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
-   dog_breed: G
-   treatment: 4
+   metadata:
+     sample_id: Dog16
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTAG
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: G
+     treatment: 4
  - class: File
    path: hello.txt
-   sample_id: Dog17
-   barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTAT
-   linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
-   reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
-   dog_breed: K
-   treatment: 0
+   metadata:
+     sample_id: Dog17
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTAT
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: K
+     treatment: 0
  - class: File
    path: hello.txt
-   sample_id: Dog1
-   barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTCA
-   linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
-   reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
-   dog_breed: B
-   treatment: 2
+   metadata:
+     sample_id: Dog1
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTCA
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: B
+     treatment: 2
  - class: File
    path: hello.txt
-   sample_id: Dog22
-   barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTCC
-   linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
-   reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
-   dog_breed: B
-   treatment: 3
+   metadata:
+     sample_id: Dog22
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTCC
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: B
+     treatment: 3
  - class: File
    path: hello.txt
-   sample_id: Dog23
-   barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTCG
-   linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
-   reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
-   dog_breed: G
-   treatment: 1
+   metadata:
+     sample_id: Dog23
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTCG
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: G
+     treatment: 1
  - class: File
    path: hello.txt
-   sample_id: Dog24
-   barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTAT
-   linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
-   reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
-   dog_breed: K
-   treatment: 2
+   metadata:
+     sample_id: Dog24
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTAT
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: K
+     treatment: 2
  - class: File
    path: hello.txt
-   sample_id: Dog29
-   barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTGA
-   linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
-   reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
-   dog_breed: B
-   treatment: 0
+   metadata:
+     sample_id: Dog29
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTGA
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: B
+     treatment: 0
  - class: File
    path: hello.txt
-   sample_id: Dog2
-   barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTGC
-   linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
-   reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
-   dog_breed: G
-   treatment: 3
+   metadata:
+     sample_id: Dog2
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTGC
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: G
+     treatment: 3
  - class: File
    path: hello.txt
-   sample_id: Dog30
-   barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTGG
-   linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
-   reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
-   dog_breed: G
-   treatment: 2
+   metadata:
+     sample_id: Dog30
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTGG
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: G
+     treatment: 2
  - class: File
    path: hello.txt
-   sample_id: Dog31
-   barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTGT
-   linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
-   reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
-   dog_breed: K
-   treatment: 1
+   metadata:
+     sample_id: Dog31
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTGT
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: K
+     treatment: 1
  - class: File
    path: hello.txt
-   sample_id: Dog3
-   barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTTA
-   linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
-   reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
-   dog_breed: K
-   treatment: 3
+   metadata:
+     sample_id: Dog3
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTTA
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: K
+     treatment: 3
  - class: File
    path: hello.txt
-   sample_id: Dog8
-   barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTTC
-   linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
-   reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
-   dog_breed: B
-   treatment: 4
+   metadata:
+     sample_id: Dog8
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTTC
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: B
+     treatment: 4
  - class: File
    path: hello.txt
-   sample_id: Dog9
-   barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTTG
-   linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
-   reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
-   dog_breed: G
-   treatment: 0
+   metadata:
+     sample_id: Dog9
+     barcode_sequence: NNNNNGTGCCAGCMGCCGCGGTTG
+     linker_primer_sequence: NNNNNGGACTACHVGGGTWTCTAAT
+     reverse_primer: NNNNNGGACTACHVGGGTWTCTAAT
+     dog_breed: G
+     treatment: 0
